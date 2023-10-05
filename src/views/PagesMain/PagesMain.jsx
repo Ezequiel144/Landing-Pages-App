@@ -3,8 +3,8 @@ import imgCeluMain from '../../assets/img/celu2.png';
 import Button from '../../components/Button/Button';
 import imagenGoogle from '../../assets/icons/google-play.png'
 import imagenApp from '../../assets/icons/logotipo-de-apple.png'
-import listDataCuadro from '../../data/data.js';
-import Cuadro from '../../components/Cuadro/Cuadro';
+import SectionTwo from '../../sections/SectionTwo/SectionTwo';
+
 
 export default function PagesMain(){
     return(
@@ -24,28 +24,7 @@ export default function PagesMain(){
                     <img className={pagesMainStyle.imageCelu} src={imgCeluMain} alt="imgenCelular"/>
                 </section>
             </div>
-            <div className={pagesMainStyle.contentPagesMainTwo}>
-                <section className={pagesMainStyle.sectionOne}>
-                    <article className={pagesMainStyle.contentCuadro}>
-                        {
-                            listDataCuadro?.map(data => {
-                                return(
-                                    <Cuadro
-                                        id={data.id}
-                                        key={data.id}
-                                        title={data.title}
-                                        subtitle={data.subtitle}
-                                        image={data.image}
-                                    />
-                                )
-                            })
-                        }
-                    </article>
-                </section>
-                <section className={pagesMainStyle.sectionTwo}>
-
-                </section>
-            </div>
+            <SectionTwo />
         </>
     )
 }

@@ -52,20 +52,3 @@
     padding-top: 15px;
 }
 
-.contentPagesMainTwo{
-    background-image: url('../../assets/img/seccion2.png');
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
-
-.contentCuadro{
-    /* border: 1px solid blue; */
-    display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 200px;
-    row-gap: 30px;
-    column-gap: 35px;
-}
-
