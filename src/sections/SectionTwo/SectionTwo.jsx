@@ -23,8 +23,14 @@ export default function SectionTwo(){
                     </article>
                 </section>
                 <section className={sectionTwoStyle.sectionTwo}>
-                    <h1 className={sectionTwoStyle.titleTwo}>Landing page for showcase app</h1>
-                    <h4 className={sectionTwoStyle.subtitleTwo}>Consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolo.</h4>
+                    <article className={sectionTwoStyle.contentText}>
+                        <h1 className={sectionTwoStyle.titleTwo}>User love teeno to make cool landing page</h1>
+                        <h4 className={sectionTwoStyle.subtitleTwo}>
+                            Consectetur adipiscing elit,send do eiusmod tempor incididunt ut labore et dolor.
+                            consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua.Ut enim.
+                        </h4>
+                    </article>
                 </section>
         </div>
     )

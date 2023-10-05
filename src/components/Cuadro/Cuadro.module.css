@@ -8,12 +8,7 @@
     align-items: left;
     row-gap: 8px;
     border-radius: 10px;
-    box-shadow: 5px 2px 15px 1px var(--var-color-three);
-}
-
-.contentInfo:hover{
-    transition: 0.5s all;
-    box-shadow: 5px 2px 15px 1px var(--var-color-two);
+    /* box-shadow: 5px 2px 15px 1px var(--var-color-three); */
 }
 
 .image{

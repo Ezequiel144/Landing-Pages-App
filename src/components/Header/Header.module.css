@@ -5,10 +5,18 @@
     height: 100px;
     background-color: transparent;
     width: 100%;
-    padding: 70px 200px;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.contentAll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1250px;
+    padding: 0 25px;
 }
 
 .contentLogo{
