@@ -1,0 +1,14 @@
+:root{
+  --var-primary: 'Nunito', sans-serif;
+  --var-secundary: 'Roboto', sans-serif;
+  --var-color-one: white;
+  --var-color-two: #f72a85;
+  --var-color-three: rgb(21, 21, 21);
+  --var-color-four: #adb5bd;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

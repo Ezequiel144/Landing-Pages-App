@@ -1,0 +1,18 @@
+.button{
+    padding: 15px 20px;
+    background-color: var(--var-color-three);
+    border: 0;
+    color: var(--var-color-one);
+    font-family: var(--var-secundary);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.image{
+    width: 20px;
+}
