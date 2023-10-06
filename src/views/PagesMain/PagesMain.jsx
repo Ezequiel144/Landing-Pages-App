@@ -5,6 +5,7 @@ import imagenGoogle from '../../assets/icons/google-play.png'
 import imagenApp from '../../assets/icons/logotipo-de-apple.png'
 import SectionTwo from '../../sections/SectionTwo/SectionTwo';
 import SectionThree from '../../sections/SectionThree/SectionThree';
+import SectionFour from '../../sections/SectionFour/SectionFour';
 
 
 export default function PagesMain(){
@@ -27,6 +28,7 @@ export default function PagesMain(){
             </div>
             <SectionTwo />
             <SectionThree />
+            <SectionFour />
         </>
     )
 }

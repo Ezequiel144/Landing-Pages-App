@@ -5,7 +5,7 @@
     row-gap: 20px;
 }
 .sectionTwo{    
-    width: 600px;
+    width: 550px;
 }
 .image{
     width: 100%;
@@ -48,7 +48,6 @@
     font-weight: 500;
     line-height: 30px;
 }
-
 @media (max-width: 1150px){
     .contentPagesMainThree{
         flex-direction: column;
@@ -68,7 +67,7 @@
         text-align: center;
     }
     .sectionTwo{
-        width: 500px;
+        width: 450px;
     }
     .iconConfig{
         margin: 0 auto;
