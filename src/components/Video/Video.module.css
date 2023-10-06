@@ -1,0 +1,15 @@
+.video{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 3600px;
+    width: 800px;
+    height: 400px;
+}
+
+@media (max-width: 1150px){
+    .video{
+        width: 60%;
+        top: 4300px;
+    }
+}

@@ -1,6 +1,7 @@
 import headerStyle from './Header.module.css';
 import logo from '../../assets/img/logo.png';
 import ButtonDownload from '../ButtoDownload/ButtonDownload';
+import menu from '../../assets/icons/menu.png'
 
 export default function Header(){
     return(
@@ -19,6 +20,7 @@ export default function Header(){
                             <li className={headerStyle.li}>blog</li>
                         </ul>
                     </div>
+                    <img className={headerStyle.menu} src={menu} alt="menu" />
                     <div className={headerStyle.contentButton}>
                         <ButtonDownload />
                     </div>

@@ -1,3 +1,9 @@
+.contentAll{
+    margin: auto;
+    max-width: 2000px;
+    position: relative;
+}
+
 .contentPagesMain{
     background-image: url('../../assets/img/imgmain2.png');
     background-position: center;
@@ -64,7 +70,7 @@
     .contentPagesMain{
         flex-direction: column;
         height: fit-content;
-        padding-top: 100px;
+        padding-top: 200px;
         gap: 100px 0;
     }
     .contentText{

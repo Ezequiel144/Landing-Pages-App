@@ -52,5 +52,22 @@
     color:var(--var-color-one)
 }
 
+.menu{
+    width: 45px;
+    cursor: pointer;
+    display: none;
+}
 
+@media (max-width:850px) {
+    .contentTwo{
+        justify-content:space-between;
+        width: 52%;
+    }
+    .contentUl{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
 

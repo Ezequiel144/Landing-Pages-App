@@ -6,11 +6,13 @@ import imagenApp from '../../assets/icons/logotipo-de-apple.png'
 import SectionTwo from '../../sections/SectionTwo/SectionTwo';
 import SectionThree from '../../sections/SectionThree/SectionThree';
 import SectionFour from '../../sections/SectionFour/SectionFour';
+import SectionFive from '../../sections/SectionFive/SectionFive';
+import Video from '../../components/Video/Video';
 
 
 export default function PagesMain(){
     return(
-        <>
+        <div className={pagesMainStyle.contentAll}>
             <div className={pagesMainStyle.contentPagesMain}>
                 {/* <section className={pagesMainStyle.sectionOne}> */}
                     <section className={pagesMainStyle.contentText}>
@@ -29,6 +31,8 @@ export default function PagesMain(){
             <SectionTwo />
             <SectionThree />
             <SectionFour />
-        </>
+            <Video />
+            <SectionFive />
+        </div>
     )
 }
