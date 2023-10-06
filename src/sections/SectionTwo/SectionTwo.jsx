@@ -1,11 +1,11 @@
 import listDataCuadro from '../../data/data.js';
 import Cuadro from '../../components/Cuadro/Cuadro';
-import sectionTwoStyle from './Section.module.css'
+import sectionTwoStyle from './Section.module.css';
 
 export default function SectionTwo(){
     return(
         <div className={sectionTwoStyle.contentPagesMainTwo}>
-                <section className={sectionTwoStyle.sectionOne}>
+                {/* <section className={sectionTwoStyle.sectionOne}> */}
                     <article className={sectionTwoStyle.contentCuadro}>
                         {
                             listDataCuadro?.map(data => {
@@ -21,8 +21,8 @@ export default function SectionTwo(){
                             })
                         }
                     </article>
-                </section>
-                <section className={sectionTwoStyle.sectionTwo}>
+                {/* </section> */}
+                {/* <section className={sectionTwoStyle.sectionTwo}> */}
                     <article className={sectionTwoStyle.contentText}>
                         <h1 className={sectionTwoStyle.titleTwo}>User love teeno to make cool landing page</h1>
                         <h4 className={sectionTwoStyle.subtitleTwo}>
@@ -31,7 +31,7 @@ export default function SectionTwo(){
                             magna aliqua.Ut enim.
                         </h4>
                     </article>
-                </section>
+                {/* </section> */}
         </div>
     )
 }

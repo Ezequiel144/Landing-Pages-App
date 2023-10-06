@@ -4,11 +4,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 880px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0 250px;
+    /* border: 1px solid red; */
+    padding: 0 25px;
 }
 
 /* .sectionOne,.sectionTwo{   
@@ -21,6 +23,7 @@
 } */
 
 .sectionTwo{
+    width: 500px;
 }
 
 .contentText{
@@ -46,8 +49,7 @@
 }
 
 .imageCelu{
-    min-width: 400px;
-    max-width: 500px;
+    width: 100%;
 }
 
 .contentButton{
@@ -55,14 +57,24 @@
     justify-content: space-between;
     width: 380px;
     padding-top: 15px;
+    
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1150px) {
     .contentPagesMain{
         flex-direction: column;
+        height: fit-content;
+        padding-top: 100px;
+        gap: 100px 0;
     }
-    .sectionOne,.sectionTwo{
-        
+    .contentText{
+        align-items: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .subtitle{
+        text-align: center;
     }
 }
 

@@ -1,15 +1,39 @@
-.sectionOne,.sectionTwo{   
-    width: 50%;
-    height: 100%;
+.sectionOne{
+    width: 450px;
     display: flex;
-    align-items: center;
-    padding: 0 200px;
-    border: 1px solid red;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.sectionTwo{    
+    width: 600px;
+}
+.image{
+    width: 100%;
 }
 
 .contentPagesMainThree{
     background-color: transparent;
     width: 100%;
-    height: 100vh;
+    height: 880px;
+    padding: 0 25px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0 150px ;
+}
+
+.title{
+    font-family: var(--var-primary);
+    color: var(--var-color-three);
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 400px;
+}
+
+.subtitle{
+    width: 400px;
+    color: var(--var-color-four);
+    font-family: var(--var-primary);
+    font-weight: 500;
+    line-height: 30px;
 }

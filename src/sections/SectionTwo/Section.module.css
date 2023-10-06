@@ -1,22 +1,19 @@
-.sectionOne,.sectionTwo{   
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 200px;
-    /* border: 1px solid red; */
-}
 
 .contentPagesMainTwo{
     background-image: url('../../assets/img/seccion2.png');
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 880px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 300px;
+    padding: 0 25px;
 }
 
 .contentCuadro{
-    /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: 200px 200px;
     grid-template-rows: 200px 200px;
@@ -48,4 +45,16 @@
     font-family: var(--var-primary);
     font-weight: 500;
     line-height: 30px;
+}
+
+@media (max-width: 1150px){
+    .contentPagesMainTwo{
+        flex-direction: column;
+        gap: 100px 0;
+        padding-top: 100px;
+        height: fit-content;
+    }
+    .titleTwo,.subtitleTwo{
+        text-align: center;
+    }
 }

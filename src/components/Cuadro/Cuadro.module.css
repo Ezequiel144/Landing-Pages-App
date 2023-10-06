@@ -8,7 +8,7 @@
     align-items: left;
     row-gap: 8px;
     border-radius: 10px;
-    /* box-shadow: 5px 2px 15px 1px var(--var-color-three); */
+    border: 1px solid rgb(240, 240, 240);
 }
 
 .image{
@@ -24,6 +24,6 @@
 .subtitle{
     font-family: var(--var-secundary);
     color: var(--var-color-four);
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     font-weight: 500;
 }
