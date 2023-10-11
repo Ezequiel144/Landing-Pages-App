@@ -1,0 +1,48 @@
+.contentCardInfo{
+    display: flex;
+    gap: 0 20px;
+    height: 150px;
+}
+
+.contentIconImage{
+    height: 100%;
+}
+
+
+.contentImage{
+    border-radius: 100%;
+    width: 80px;
+    padding: 18px;
+    background: rgb(159,113,236);
+    background: linear-gradient(145deg, rgba(159,113,236,1) 22%, rgba(98,126,249,1) 72%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentImage:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px var(--var-color-three);
+}
+
+.image{
+    width: 100%;
+}
+
+.contentText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.title{
+    font-family: var(--var-secundary);
+    color: var(--var-color-three);
+}
+
+.description{
+    line-height: 28px;
+    font-family: var(--var-secundary);
+    color: var(--var-color-four);
+    font-weight: 400;
+}
