@@ -1,0 +1,41 @@
+.contentPagesMainSeven{
+    background-image: url('../../assets/img/imgSect7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 0;
+    padding: 0 25px;
+}
+
+.contentText{
+    color: var(--var-color-one);
+}
+
+.title{
+    font-family: var(--var-primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 500px;
+    text-align: center;
+}
+
+.description{
+    width: 500px;
+    font-family: var(--var-primary);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contentTestimont{
+    display: flex;
+    gap: 0 20px;
+    width: 1000px;
+}

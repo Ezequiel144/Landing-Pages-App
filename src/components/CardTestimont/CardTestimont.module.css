@@ -1,0 +1,45 @@
+.contentCardTestimont{
+    width: 100%;
+}
+
+.contentText{
+    background-color: var(--var-color-one);
+    color: var(--var-color-four);
+    padding: 50px;
+    font-family: var(--var-secundary);
+    font-size: 1.3rem;
+}
+
+.contentPerfil{
+    display: flex;
+    align-items: center;
+    gap: 0 25px;
+    padding: 20px 0;
+}
+
+.contentTextPerfil{
+    color: var(--var-color-one);
+}
+
+.namePerfil{
+    font-family: var(--var-primary);
+    text-transform: uppercase;
+}
+
+.contentimagePerfil{
+    width: 80px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagePerfil{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.text{
+    font-family: var(--var-secundary);
+    font-weight: 300;
+}
