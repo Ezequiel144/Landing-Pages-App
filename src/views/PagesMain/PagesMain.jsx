@@ -8,6 +8,7 @@ import SectionThree from '../../sections/SectionThree/SectionThree';
 import SectionFour from '../../sections/SectionFour/SectionFour';
 import SectionFive from '../../sections/SectionFive/SectionFive';
 import Video from '../../components/Video/Video';
+import SectionSix from '../../sections/SectionSix/SectionSix';
 
 
 export default function PagesMain(){
@@ -33,6 +34,7 @@ export default function PagesMain(){
             <SectionFour />
             <Video />
             <SectionFive />
+            <SectionSix />
         </div>
     )
 }
