@@ -1,5 +1,5 @@
 import pagesMainStyle from './PagesMain.module.css';
-import imgCeluMain from '../../assets/img/celu2.png';
+import imgCeluMain from '../../assets/img/celular1.png';
 import Button from '../../components/Button/Button';
 import imagenGoogle from '../../assets/icons/google-play.png'
 import imagenApp from '../../assets/icons/logotipo-de-apple.png'

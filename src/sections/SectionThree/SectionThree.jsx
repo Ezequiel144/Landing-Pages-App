@@ -1,6 +1,6 @@
 import ButtonDownload from '../../components/ButtoDownload/ButtonDownload'
 import sectionThreeStyle from './SectionThree.module.css'
-import imageThree from '../../assets/img-sec3/celuinclinadoreducido.png'
+import imageThree from '../../assets/img-sec3/celuinclinadoMain2.png'
 import iconConfig from '../../assets/icon-sec3/configuraciones.png'
 
 export default function SectionThree(){
