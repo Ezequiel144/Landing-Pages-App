@@ -1,0 +1,10 @@
+.contentFooter{
+    background-image: url('../../assets//img/fondoFooter.png');
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    max-width: 2000px;
+    margin: 0 auto;
+    position: relative;
+}

@@ -1,5 +1,5 @@
 import headerStyle from './Header.module.css';
-import logo from '../../assets/img/logo.png';
+import logo from '../../assets/img/logo2.png';
 import ButtonDownload from '../ButtoDownload/ButtonDownload';
 import menu from '../../assets/icons/menu.png'
 
@@ -22,7 +22,7 @@ export default function Header(){
                     </div>
                     <img className={headerStyle.menu} src={menu} alt="menu" />
                     <div className={headerStyle.contentButton}>
-                        <ButtonDownload />
+                        <ButtonDownload title={"Download"}/>
                     </div>
                 </div>
             </div>

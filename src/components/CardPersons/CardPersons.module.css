@@ -1,0 +1,56 @@
+.contentCardPersons{
+    background-color: var(--var-color-six);
+    width: 250px;
+    height: fit-content;
+    padding: 20px 35px;
+}
+
+.contentPerfil{
+    height: fit-content;
+    background-image: url('../../assets/img-sec9/fondoPerfil.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    /* border: 1px solid greenyellow; */
+}
+
+.contentTextPerfil{
+    color: var(--var-color-one);
+    font-family: var(--var-secundary);
+    margin-top: 10px;
+}
+
+.imagePerfil{
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin: 5px 0 0 45px;
+    z-index: 100;
+}
+
+.name{
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.profetion{
+    margin-top: 5px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.SocialNetworks{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.icons{
+    width: 16px;
+    height: 16px;
+}

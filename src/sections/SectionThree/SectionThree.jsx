@@ -17,7 +17,7 @@ export default function SectionThree(){
                     sed do eiusmod tempor incididunt ut labore
                 </p>
                 <div className={sectionThreeStyle.contentButton}>
-                    <ButtonDownload />
+                    <ButtonDownload title={"Download"}/>
                 </div>
             </section>
             <section className={sectionThreeStyle.sectionTwo}>

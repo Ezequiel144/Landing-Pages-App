@@ -1,0 +1,39 @@
+.contentContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--var-color-one);
+    box-shadow: 1px 1px 30px 1px var(--var-color-three);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    height: 600px;
+}
+
+.contentTextFormulary{
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+}
+
+.contentText{
+
+}
+
+.title{
+    width: 200px;
+    font-family: var(--var-primary);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--var-color-three);
+    padding-bottom: 20px;
+}
+
+.p{
+    width: 550px;
+    font-family: var(--var-secundary);
+    font-weight: 500;
+    color: var(--var-color-four);
+    line-height: 30px;
+}

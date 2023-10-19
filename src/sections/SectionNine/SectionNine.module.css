@@ -1,0 +1,34 @@
+.contentPagesMainNine{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 0;
+    padding: 0 25px;
+}
+
+.contentCards{
+    display: flex;
+    gap: 0 20px;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-family: var(--var-primary);
+    color: var(--var-color-three);
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.decription{
+    color: var(--var-color-four);
+    text-align: center;
+    width: 550px;
+    padding-bottom: 35px;
+    font-family: var(--var-primary);
+    font-weight: 500;
+    line-height: 30px;
+}

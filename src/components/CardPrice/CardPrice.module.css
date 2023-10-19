@@ -1,0 +1,46 @@
+.contentCardPrice{
+    box-shadow: 1px 4px 8px var(--var-color-four);
+    width: 325px;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px 0;
+    padding: 70px 0;
+}
+
+.title{
+    font-family: var(--var-secundary);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.price{
+    font-family: var(--var-secundary);
+    font-size: 2.2rem;
+}
+
+.priceText{
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--var-color-four);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    color: var(--var-color-four);
+
+}
+
+.item{
+    list-style: none;
+    font-family: var(--var-secundary);
+    font-weight: 300;
+}

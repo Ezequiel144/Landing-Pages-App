@@ -20,7 +20,7 @@ export default function SectionFour(){
                     sed do eiusmod tempor incididunt ut labore
                 </p>
                 <div className={sectionFourStyle.contentButton}>
-                    <ButtonDownload />
+                    <ButtonDownload title={"Download"}/>
                 </div>
             </section>
         </div>

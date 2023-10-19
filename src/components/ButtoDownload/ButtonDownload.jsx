@@ -1,5 +1,6 @@
 import downloadStyle from './ButtonDownload.module.css';
 
-export default function ButtonDownload(){
-    return <button className={downloadStyle.button}>Download</button>
+// eslint-disable-next-line react/prop-types
+export default function ButtonDownload({title}){
+    return <button className={downloadStyle.button}>{title}</button>
 }
