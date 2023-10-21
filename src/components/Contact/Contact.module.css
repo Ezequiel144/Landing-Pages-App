@@ -9,6 +9,7 @@
     transform: translateX(-50%);
     width: 1000px;
     height: 600px;
+    gap: 0 20px;
 }
 
 .contentTextFormulary{
@@ -36,4 +37,6 @@
     font-weight: 500;
     color: var(--var-color-four);
     line-height: 30px;
+    /* border: 1px solid red; */
+    width: 410px;
 }

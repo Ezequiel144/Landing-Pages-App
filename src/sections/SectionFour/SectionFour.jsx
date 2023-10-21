@@ -1,6 +1,6 @@
 import sectionFourStyle from './SectionFour.module.css';
 import ButtonDownload from '../../components/ButtoDownload/ButtonDownload';
-import imageFour from '../../assets/img-sec4/celusinsalidadepantallarecortado.png';
+import imageFour from '../../assets/img-sec4/celudefrenteDos.png';
 import iconComment from '../../assets/icon-sec4/conversacion.png'
 
 export default function SectionFour(){

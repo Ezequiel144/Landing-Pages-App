@@ -1,5 +1,6 @@
 import contactStyle from './Contact.module.css';
 import map from '../../assets/img/map.png';
+import Formulary from '../Formulary/Formulary';
 
 export default function Contact(){
     return(
@@ -12,7 +13,7 @@ export default function Contact(){
                         incididunt ut labore et dolor. consectetur adiposcing elit,
                     </p>
                 </div>
-                formulario
+                <Formulary />
             </section>
             <section>
                 <img src={map} alt="map" />

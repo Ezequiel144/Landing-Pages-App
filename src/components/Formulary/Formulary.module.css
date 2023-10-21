@@ -1,0 +1,41 @@
+.contentForm{
+    /* border: 1px solid blue; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    gap: 20px 0;
+}
+
+.contentInputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input,.textarea{
+    font-family: var(--var-primary);
+    font-size: 1rem;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 2px solid var(--var-color-two);
+    outline: none;
+}
+
+.textarea{
+    height: 70px;
+}
+
+.submit{
+    width: 200px;
+    padding: 20px 0;
+    border-radius: 30px;
+    border: 0;
+    background-color: var(--var-color-two);
+    color: var(--var-color-one);
+    font-family: var(--var-primary);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}

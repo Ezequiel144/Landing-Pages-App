@@ -9,7 +9,7 @@ export default function SectionNine(){
             <section className={sectionNineStyle.contentText}>
                 <h1 className={sectionNineStyle.title}>Meet Teeno Team</h1>
                 <p className={sectionNineStyle.decription}>
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    Consectetur adipiscing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u
                 </p>
             </section>
