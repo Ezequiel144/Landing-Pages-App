@@ -11,22 +11,39 @@
 
 .contentSocial{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: absolute;
     bottom: 150px;
     left: 50%;
     transform: translateX(-50%);
+    width: 300px;
 }
 
 .contentIcons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    border: 1px solid red;
+    width: 64px;
     border-radius: 100%;
-    padding: 20px ;
+    cursor: pointer;
 }
 
 .icon{
     width: 100%;
+}
+
+.contentCopy{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text{
+    font-family: var(--var-primary);
+    color: var(--var-color-one);
+}
+
+.autor{
+    color: var(--var-color-one);
+    text-decoration: none;
+    text-transform: uppercase;
 }
