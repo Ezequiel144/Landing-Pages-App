@@ -1,6 +1,6 @@
-/* import CarouselComp from '../../components/Carousel/CarouselComp';*/import CarouselThree from '../../components/CarouselThree/CarouselThree';
+/* import CarouselComp from '../../components/Carousel/CarouselComp';*/
 import CarouselTwo from '../../components/CarouselTwo/CarouselTwo';
-/* import CarouselTwo from '../../components/CarouselTwo/CarouselTwo';*/import sectionSixStyle from './SectionSix.module.css';
+import sectionSixStyle from './SectionSix.module.css';
 
 
 export default function SectionSix(){

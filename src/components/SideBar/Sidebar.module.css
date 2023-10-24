@@ -1,0 +1,30 @@
+.contentSidebar{
+    display: none;
+    flex-direction: column;
+    padding: 20px 30px;
+    position: fixed;
+    top: 0;
+    right: -50%;
+    background-color: darkcyan;
+    width: 50%;
+    height: 100vh;
+    animation: sidebar 0.5s alternate;
+    z-index: 500;
+}
+
+.contentLi{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.li{
+    list-style-type: none;
+}
+
+@keyframes sidebar{
+    from{
+        transform: translateX(200px);
+    }
+}

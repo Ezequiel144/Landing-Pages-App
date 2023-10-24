@@ -12,9 +12,19 @@ import SectionSix from '../../sections/SectionSix/SectionSix';
 import SectionSeven from '../../sections/SectionSeven/SectionSeven';
 import SectionEight from '../../sections/SectionEight/SectionEight';
 import SectionNine from '../../sections/SectionNine/SectionNine';
+import Sidebar from '../../components/SideBar/Sidebar';
+import { useContext } from 'react';
+import { providerSidebar } from '../../context/SidebarContext';
+
 
 
 export default function PagesMain(){
+
+    const {actionSidebar} = useContext(providerSidebar);
+
+    const varAction = actionSidebar ? "flex" : "none";
+    const varSide = actionSidebar ? "0" : "-40%"; 
+
     return(
         <div className={pagesMainStyle.contentAll}>
             <div className={pagesMainStyle.contentPagesMain}>
@@ -32,6 +42,10 @@ export default function PagesMain(){
                     <img className={pagesMainStyle.imageCelu} src={imgCeluMain} alt="imgenCelular"/>
                 </section>
             </div>
+            <Sidebar 
+                varSide={varSide} 
+                action={varAction}
+            />
             <SectionTwo />
             <SectionThree />
             <SectionFour />

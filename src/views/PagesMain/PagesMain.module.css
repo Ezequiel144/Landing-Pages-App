@@ -2,6 +2,7 @@
     margin: auto;
     max-width: 2000px;
     position: relative;
+    overflow: hidden;
 }
 
 .contentPagesMain{
