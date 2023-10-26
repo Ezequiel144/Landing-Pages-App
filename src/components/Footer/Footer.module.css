@@ -4,9 +4,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
-    max-width: 2000px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
+    border: 1px solid darkcyan;
 }
 
 .contentSocial{
@@ -52,7 +53,7 @@
 
 @media (max-width:905px) {
     .contentCopy{
-        bottom: 70px;
+        bottom: 45px;
     }
     .contentSocial{
     }

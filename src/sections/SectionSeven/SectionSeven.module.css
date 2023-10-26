@@ -49,3 +49,14 @@
 
     }
 }
+
+@media (max-width:500px) {
+    .title{
+        font-size: 2.5rem;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .description{
+        width: 320px;
+    }
+}

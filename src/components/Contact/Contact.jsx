@@ -15,8 +15,8 @@ export default function Contact(){
                 </div>
                 <Formulary />
             </section>
-            <section>
-                <img src={map} alt="map" />
+            <section className={contactStyle.contentMap}>
+                <img className={contactStyle.imageMap} src={map} alt="map" />
             </section>
         </div>
     )

@@ -1,14 +1,13 @@
 import sidebarStyle from './Sidebar.module.css';
 import { useContext } from 'react';
 import { providerSidebar } from '../../context/SidebarContext';
-import Button from '../Button/Button';
 import ButtonDownload from '../ButtoDownload/ButtonDownload';
 import imagenclose from "../../assets/img/cerrar.png";
 
 // eslint-disable-next-line react/prop-types
 export default function Sidebar({varSide,action}){
 
-    const {actionSidebar,setActionSidebar} = useContext(providerSidebar);
+    const {setActionSidebar} = useContext(providerSidebar);
 
     return(
         <div className={sidebarStyle.contentSidebar} style={{display: action,right:varSide}}>

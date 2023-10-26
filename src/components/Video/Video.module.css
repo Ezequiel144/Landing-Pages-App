@@ -13,3 +13,9 @@
         top: 4400px;
     }
 }
+
+@media (max-width:500px){
+    .video{
+        top: 4200px;
+    }
+}

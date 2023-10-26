@@ -58,3 +58,21 @@
         text-align: center;
     }
 }
+
+
+@media (max-width:500px) {
+    .titleTwo{
+        font-size: 2.5rem;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .subtitleTwo{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .contentCuadro{
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 180px 180px;
+        gap: 20px;
+    }
+}

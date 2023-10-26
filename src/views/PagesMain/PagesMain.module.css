@@ -88,3 +88,12 @@
     }
 }
 
+@media (max-width:500px) {
+    .title{
+        font-size: 2.5rem;
+        width: 320px;
+    }
+    .sectionTwo{
+        width: 320px;
+    }
+}

@@ -1,5 +1,4 @@
 .contentForm{
-    /* border: 1px solid blue; */
 }
 
 .form{
@@ -38,4 +37,12 @@
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
+}
+
+@media (max-width:540px) {
+    .contentInputs{
+        display: flex;
+        gap: 20px 0;
+        flex-direction: column;
+    }
 }
