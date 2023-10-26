@@ -8,7 +8,7 @@ export default function SidebarContext({children}){
     
     const [actionSidebar,setActionSidebar] = useState(false);
     
-    console.log(actionSidebar)
+    /* console.log(actionSidebar) */
 
     return(
         <providerSidebar.Provider value={{actionSidebar,setActionSidebar}}>

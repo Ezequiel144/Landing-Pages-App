@@ -7,7 +7,7 @@ import { providerSidebar } from '../../context/SidebarContext';
 
 export default function Header(){
 
-    const {setActionSidebar} = useContext(providerSidebar);
+    const {actionSidebar,setActionSidebar} = useContext(providerSidebar);
 
     return(
         <header className={headerStyle.header}>
@@ -26,7 +26,7 @@ export default function Header(){
                             <li className={headerStyle.li}>blog</li>
                         </ul>
                     </div>
-                    <img className={headerStyle.menu} src={menu} alt="menu" onClick={() => setActionSidebar(true)}/>
+                    <img className={headerStyle.menu} src={menu} alt="menu" onClick={() => setActionSidebar(!actionSidebar)}/>
                     <div className={headerStyle.contentButton}>
                         <ButtonDownload title={"Download"}/>
                     </div>
