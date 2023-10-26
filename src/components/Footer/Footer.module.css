@@ -40,10 +40,29 @@
 .text{
     font-family: var(--var-primary);
     color: var(--var-color-one);
+    text-align: center;
 }
 
 .autor{
     color: var(--var-color-one);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+
+@media (max-width:905px) {
+    .contentCopy{
+        bottom: 70px;
+    }
+    .contentSocial{
+    }
+    .contentFooter{
+        height: 1100px;
+    }
+}
+
+@media (max-width:700px){
+    .contentFooter{
+        height: 1100px;
+    }
 }
