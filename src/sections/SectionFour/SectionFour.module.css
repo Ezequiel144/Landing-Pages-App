@@ -1,8 +1,9 @@
 .sectionOne{
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    border: 1px solid darkorchid;
 }
 .sectionTwo{    
     width: 550px;

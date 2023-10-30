@@ -39,6 +39,12 @@
     cursor: pointer;
 }
 
+@media (max-width:901px) {
+    .submit{
+        margin: 0 auto;
+    }
+}
+
 @media (max-width:540px) {
     .contentInputs{
         display: flex;

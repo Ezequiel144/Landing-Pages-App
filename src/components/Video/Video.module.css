@@ -9,13 +9,13 @@
 
 @media (max-width: 1150px){
     .video{
-        width: 60%;
+        width: 80%;
         top: 4400px;
     }
 }
 
 @media (max-width:500px){
     .video{
-        top: 4200px;
+        top: 4150px;
     }
 }

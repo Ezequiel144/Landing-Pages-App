@@ -30,11 +30,10 @@
 
 .cardsInfo{
     display: grid;
-    grid-template-columns: repeat(3,400px);
+    grid-template-columns: repeat(3,auto);
     grid-template-rows: 180px 180px;
     gap: 20px;
     padding-bottom: 40px;
-    /* border: 1px solid darkcyan; */
 }
 
 .title{

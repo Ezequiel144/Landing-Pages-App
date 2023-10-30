@@ -2,6 +2,7 @@
     display: flex;
     gap: 0 20px;
     height: 150px;
+    max-width: 400px;
 }
 
 .contentIconImage{
@@ -47,17 +48,17 @@
     color: var(--var-color-four);
     font-weight: 400;
     width: 100%;
+    
 }
 
 @media (max-width:500px) {
     .contentCardInfo{
         height: fit-content;
-        width: 400px;
     }
 }
 
 @media (max-width:450px) {
     .contentCardInfo{
-        width: 320px;
+        width: 310px;
     }
 }

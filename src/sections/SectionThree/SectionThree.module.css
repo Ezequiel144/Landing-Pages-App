@@ -1,5 +1,5 @@
 .sectionOne{
-    width: 450px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
