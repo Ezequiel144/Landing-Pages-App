@@ -8,6 +8,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Landing-Pages-App
 
-# Link Landing-Pages
+- Link:
 [Click-Pages](https://landing-pages-teeno.netlify.app/)
 
