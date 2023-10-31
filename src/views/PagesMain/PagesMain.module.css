@@ -91,6 +91,10 @@
     .title{
         font-size: 2.5rem;
         width: 320px;
+        padding: 0 5px;
+    }
+    .subtitle{
+        padding: 0 5px;
     }
     .sectionTwo{
         width: 320px;

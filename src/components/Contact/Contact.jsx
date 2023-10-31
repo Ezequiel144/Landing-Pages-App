@@ -1,6 +1,7 @@
 import contactStyle from './Contact.module.css';
-import map from '../../assets/img/map.png';
 import Formulary from '../Formulary/Formulary';
+import map from '../../assets/img/map.png'
+/* import GoogleMap from '../GoogleMapFooter/GoogleMapFooter'; */
 
 export default function Contact(){
     return(
@@ -17,6 +18,7 @@ export default function Contact(){
             </section>
             <section className={contactStyle.contentMap}>
                 <img className={contactStyle.imageMap} src={map} alt="map" />
+                {/* <GoogleMap /> */}
             </section>
         </div>
     )

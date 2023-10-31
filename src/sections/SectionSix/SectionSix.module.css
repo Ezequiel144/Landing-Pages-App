@@ -31,13 +31,9 @@
     text-align: center;
 }
 
-.image{
-}
-
 
 .contentCarousel{
-    max-width: 70%;
-    /* border: 1px solid red; */
+    min-width: 70%;
 }
 
 @media (max-width:500px) {
@@ -45,8 +41,10 @@
         font-size: 2.5rem;
         width: 320px;
         margin: 0 auto;
+        padding: 0 10px;
     }
     .p{
         width: 320px;
+        padding: 0 10px;
     }
 }

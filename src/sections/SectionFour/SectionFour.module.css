@@ -79,9 +79,11 @@
     .title{
         font-size: 2.5rem;
         width: 320px;
+        padding: 0 10px;
     }
     .subtitle{
         width: 320px;
+        padding: 0 10px;
     }
     .sectionTwo{
         width: 320px;

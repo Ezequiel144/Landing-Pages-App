@@ -11,6 +11,7 @@
 .contentInputs{
     display: flex;
     justify-content: space-between;
+    gap: 0 15px;
 }
 
 .input,.textarea{
@@ -20,6 +21,7 @@
     border: 0;
     border-bottom: 2px solid var(--var-color-two);
     outline: none;
+    width: 100%;
 }
 
 .textarea{
