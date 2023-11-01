@@ -21,7 +21,7 @@ export default function Footer(){
             </section>
             <section className={footerStyle.contentCopy}>
                 <p className={footerStyle.text}>
-                    Copy © 2023 - Todos los derechos reservados | Diseñado y desarrollado por: <a href="#" className={footerStyle.autor}>Ezequiel Garcia</a>
+                    Copy © 2023 - Todos los derechos reservados | Diseñado y desarrollado por: <a href="https://wa.me/1138497927" className={footerStyle.autor}>Ezequiel Garcia</a>
                 </p>
             </section>
         </div>

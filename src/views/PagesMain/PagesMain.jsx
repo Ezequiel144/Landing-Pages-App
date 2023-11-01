@@ -30,7 +30,7 @@ export default function PagesMain(){
 
     return(
         <div className={pagesMainStyle.contentAll}>
-            <div className={pagesMainStyle.contentPagesMain}>
+            <div id='home' className={pagesMainStyle.contentPagesMain}>
                 {/* <section className={pagesMainStyle.sectionOne}> */}
                     <section data-aos='fade-right' data-aos-duration='1200' className={pagesMainStyle.contentText}>
                         <h1 className={pagesMainStyle.title}>Landing page for showcase app</h1>
@@ -68,11 +68,27 @@ export default function PagesMain(){
                 dataAosZoom='zoom-out'
                 dataAosDelay='500'
             />
-            <SectionFive />
-            <SectionSix />
-            <SectionSeven />
-            <SectionEight />
-            <SectionNine />
+            <SectionFive 
+                dataAosRight='fade-right'
+                dataAosDuration='1200'
+            />
+            <SectionSix 
+                dataAosLeft='fade-left' 
+                dataAosDuration='1200'
+            />
+            <SectionSeven 
+                dataAosFlipUp='flip-up'
+                dataAosFlipDown='flip-down'
+                dataAosDuration='1200'
+            />
+            <SectionEight 
+                dataAosZoom='zoom-in'
+                dataAosDuration='1200'
+            />
+            <SectionNine 
+                dataAosZoom='zoom-in'
+                dataAosDuration='1200'
+            />
         </div>
     )
 }

@@ -6,7 +6,7 @@ import iconConfig from '../../assets/icon-sec3/configuraciones.png'
 
 export default function SectionThree({dataAosDuration,dataAosUpRight,dataAosUpLeft}){
     return(
-        <div className={sectionThreeStyle.contentPagesMainThree}>
+        <div id='overview' className={sectionThreeStyle.contentPagesMainThree}>
             <section data-aos={dataAosUpRight} data-aos-duration={dataAosDuration} className={sectionThreeStyle.sectionOne}>
                 <div className={sectionThreeStyle.iconConfig}>
                     <img className={sectionThreeStyle.icon} src={iconConfig} alt="iconConfig" />

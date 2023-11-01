@@ -17,15 +17,17 @@ export default function Sidebar({varSide,action}){
                 <img className={sidebarStyle.close} onClick={()=>setActionSidebar(false)} src={imagenclose}/>
             </section>
             <ul className={sidebarStyle.contentLi}>
-                <li className={sidebarStyle.li}>Home</li>
-                <li className={sidebarStyle.li}>Overview</li>
-                <li className={sidebarStyle.li}>Features</li>
-                <li className={sidebarStyle.li}>Screesshots</li>
-                <li className={sidebarStyle.li}>blog</li>
+                    <a href='#home' className={sidebarStyle.li}>Home</a>
+                    <a href='#overview' className={sidebarStyle.li}>Overview</a>
+                    <a href='#features' className={sidebarStyle.li}>Features</a>
+                    <a href='#screesshots' className={sidebarStyle.li}>Screesshots</a>
+                    <a href='#plans' className={sidebarStyle.li}>Plans</a>
             </ul>
-            <ButtonDownload 
-                title="Download"
-            />
+            <div className={sidebarStyle.contentButton}>
+                <ButtonDownload 
+                    title="Download"
+                />
+            </div>
         </div>
     )
 }

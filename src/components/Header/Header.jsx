@@ -11,7 +11,6 @@ export default function Header(){
 
     return(
         <header className={headerStyle.header}>
-            
             <div className={headerStyle.contentAll}> 
                 <div className={headerStyle.contentLogo}>
                     <img className={headerStyle.logo} src={logo} alt="logo" />
@@ -19,11 +18,11 @@ export default function Header(){
                 <div className={headerStyle.contentTwo}>
                     <div className={headerStyle.contentUl}>
                         <ul className={headerStyle.contentLi}>
-                            <li className={headerStyle.li}>Home</li>
-                            <li className={headerStyle.li}>Overview</li>
-                            <li className={headerStyle.li}>Features</li>
-                            <li className={headerStyle.li}>Screesshots</li>
-                            <li className={headerStyle.li}>blog</li>
+                            <a href='#home' className={headerStyle.li}>Home</a>
+                            <a href='#overview' className={headerStyle.li}>Overview</a>
+                            <a href='#features' className={headerStyle.li}>Features</a>
+                            <a href='#screesshots' className={headerStyle.li}>Screesshots</a>
+                            <a href='#plans' className={headerStyle.li}>Plans</a>
                         </ul>
                     </div>
                     <img className={headerStyle.menu} src={menu} alt="menu" onClick={() => setActionSidebar(!actionSidebar)}/>

@@ -8,6 +8,8 @@
   --var-color-five: #e7e3fa;
   --var-color-six: #EEF3F7;
   --var-shadow: #F3F3F3;
+
+  scroll-behavior: smooth;
 }
 
 *{
