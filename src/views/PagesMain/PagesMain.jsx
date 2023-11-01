@@ -15,10 +15,13 @@ import SectionNine from '../../sections/SectionNine/SectionNine';
 import Sidebar from '../../components/SideBar/Sidebar';
 import { useContext } from 'react';
 import { providerSidebar } from '../../context/SidebarContext';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 export default function PagesMain(){
+    
+    AOS.init();
 
     const {actionSidebar} = useContext(providerSidebar);
 
@@ -29,7 +32,7 @@ export default function PagesMain(){
         <div className={pagesMainStyle.contentAll}>
             <div className={pagesMainStyle.contentPagesMain}>
                 {/* <section className={pagesMainStyle.sectionOne}> */}
-                    <section className={pagesMainStyle.contentText}>
+                    <section data-aos='fade-right' data-aos-duration='1200' className={pagesMainStyle.contentText}>
                         <h1 className={pagesMainStyle.title}>Landing page for showcase app</h1>
                         <h4 className={pagesMainStyle.subtitle}>Consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolo.</h4>
                         <article className={pagesMainStyle.contentButton}>
@@ -38,7 +41,7 @@ export default function PagesMain(){
                         </article>
                     </section>
                 {/* </section > */}
-                <section className={pagesMainStyle.sectionTwo}>
+                <section data-aos='fade-left' data-aos-duration='1200' className={pagesMainStyle.sectionTwo}>
                     <img className={pagesMainStyle.imageCelu} src={imgCeluMain} alt="imgenCelular"/>
                 </section>
             </div>
@@ -46,10 +49,25 @@ export default function PagesMain(){
                 varSide={varSide} 
                 action={varAction}
             />
-            <SectionTwo />
-            <SectionThree />
-            <SectionFour />
-            <Video />
+            <SectionTwo 
+                dataAosRight='fade-right' 
+                dataAosLeft='fade-left' 
+                dataAosDuration='1200'
+            />
+            <SectionThree 
+                dataAosUpRight='fade-up-right'
+                dataAosUpLeft='fade-up-left'
+                dataAosDuration='1200'
+            />
+            <SectionFour 
+                dataAosDownRight='fade-down-right'
+                dataAosDownLeft='fade-down-left'
+                dataAosDuration='1200'
+            />
+            <Video 
+                dataAosZoom='zoom-out'
+                dataAosDelay='500'
+            />
             <SectionFive />
             <SectionSix />
             <SectionSeven />
