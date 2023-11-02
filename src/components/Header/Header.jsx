@@ -2,15 +2,28 @@ import headerStyle from './Header.module.css';
 import logo from '../../assets/img/logo2.png';
 import ButtonDownload from '../ButtoDownload/ButtonDownload';
 import menu from '../../assets/icons/menu.png'
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { providerSidebar } from '../../context/SidebarContext';
+import { useEffect } from 'react';
 
 export default function Header(){
 
+    const [isActive,setIsActive] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll',() => {
+            window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
+        })
+    },[]);
+    
     const {actionSidebar,setActionSidebar} = useContext(providerSidebar);
 
+    const moveHeaderStyle = isActive ? {background: "#a873f1", transition: "0.3s all"} : {background:"transparent",transition: "0.3s all"};
+
+
+
     return(
-        <header className={headerStyle.header}>
+        <header className={headerStyle.header} style={moveHeaderStyle}>
             <div className={headerStyle.contentAll}> 
                 <div className={headerStyle.contentLogo}>
                     <img className={headerStyle.logo} src={logo} alt="logo" />

@@ -26,7 +26,7 @@ export default function PagesMain(){
     const {actionSidebar} = useContext(providerSidebar);
 
     const varAction = actionSidebar ? "flex" : "none";
-    const varSide = actionSidebar ? "0" : "-40%"; 
+    const varSide = actionSidebar ? "0" : "-50%"; 
 
     return(
         <div className={pagesMainStyle.contentAll}>

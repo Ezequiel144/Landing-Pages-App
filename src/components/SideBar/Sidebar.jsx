@@ -5,12 +5,14 @@ import ButtonDownload from '../ButtoDownload/ButtonDownload';
 import imagenclose from "../../assets/img/cerrar.png";
 
 // eslint-disable-next-line react/prop-types
-export default function Sidebar({varSide,action}){
+export default function Sidebar({varSide,/* action */}){
 
-    const {setActionSidebar} = useContext(providerSidebar);
+    const {actionSidebar,setActionSidebar} = useContext(providerSidebar);
+
+    const varStyle = actionSidebar ? {right:varSide} : {right: "-100%"}
 
     return(
-        <div className={sidebarStyle.contentSidebar} style={{display: action,right:varSide}}>
+        <div className={sidebarStyle.contentSidebar} /* style={{display: action,right:varSide}} */ style={varStyle}>
             
             <section className={sidebarStyle.contentMenu}>
                 <h1 className={sidebarStyle.menu}>menu</h1>

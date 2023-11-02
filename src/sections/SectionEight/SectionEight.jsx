@@ -13,7 +13,7 @@ export default function SectionEight({dataAosDuration,dataAosZoom}){
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u
                 </p>
             </section>
-            <section data-aos={dataAosZoom} data-aos-duration={dataAosDuration} className={sectionEightStyle.cards}>
+            <section  data-aos={dataAosZoom} data-aos-duration={dataAosDuration} className={sectionEightStyle.cards}>
                 {prices.map(item => {
                     return <CardPrice
                                 id={item.id} 
@@ -26,7 +26,6 @@ export default function SectionEight({dataAosDuration,dataAosZoom}){
                                 itemFour={item.itemFour}
                         />
                 })}
-                
             </section>
         </div>
     )

@@ -5,7 +5,7 @@
     height: 100px;
     background-color: transparent;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 10;

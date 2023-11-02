@@ -1,12 +1,11 @@
 .contentSidebar{
-    display: none;
+    display: flex;
     flex-direction: column;
     padding: 20px 30px;
     position: fixed;
     top: 0;
     right: -50%;
-    background-color: darkcyan;
-    width: 70%;
+    width: 60%;
     height: 100vh;
     animation: sidebar 0.5s ease alternate;
     z-index: 500;
@@ -14,6 +13,7 @@
     background: rgb(168,115,241);
     /* background: linear-gradient(168deg, rgba(168,115,241,1) 22%, rgba(101,125,251,1) 72%); */
     color: var(--var-color-one);
+    transition: 0.5s all;
 }
 
 .contentLi{
@@ -54,6 +54,12 @@
 @keyframes sidebar{
     0%{
         transform: translateX(500px);
+    }
+}
+
+@media (min-width:851px) {
+    .contentSidebar{
+        display: none;
     }
 }
 
