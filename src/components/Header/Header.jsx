@@ -32,8 +32,8 @@ export default function Header(){
                     <div className={headerStyle.contentUl}>
                         <ul className={headerStyle.contentLi}>
                             <a href='#home' className={headerStyle.li}>Home</a>
-                            <a href='#overview' className={headerStyle.li}>Overview</a>
-                            <a href='#features' className={headerStyle.li}>Features</a>
+                            <a href='#overview' className={headerStyle.li} >Overview</a>
+                            <a href='#features' className={headerStyle.li} >Features</a>
                             <a href='#screesshots' className={headerStyle.li}>Screesshots</a>
                             <a href='#plans' className={headerStyle.li}>Plans</a>
                         </ul>

@@ -19,11 +19,11 @@ export default function Sidebar({varSide,/* action */}){
                 <img className={sidebarStyle.close} onClick={()=>setActionSidebar(false)} src={imagenclose}/>
             </section>
             <ul className={sidebarStyle.contentLi}>
-                    <a href='#home' className={sidebarStyle.li}>Home</a>
-                    <a href='#overview' className={sidebarStyle.li}>Overview</a>
-                    <a href='#features' className={sidebarStyle.li}>Features</a>
-                    <a href='#screesshots' className={sidebarStyle.li}>Screesshots</a>
-                    <a href='#plans' className={sidebarStyle.li}>Plans</a>
+                    <a href='#home' className={sidebarStyle.li} onClick={() => setActionSidebar(false)}>Home</a>
+                    <a href='#overview' className={sidebarStyle.li} onClick={() => setActionSidebar(false)}>Overview</a>
+                    <a href='#features' className={sidebarStyle.li} onClick={() => setActionSidebar(false)}>Features</a>
+                    <a href='#screesshots' className={sidebarStyle.li} onClick={() => setActionSidebar(false)}>Screesshots</a>
+                    <a href='#plans' className={sidebarStyle.li} onClick={() => setActionSidebar(false)}>Plans</a>
             </ul>
             <div className={sidebarStyle.contentButton}>
                 <ButtonDownload 
